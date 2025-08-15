@@ -244,5 +244,5 @@ jobs:
         path: touchHLE_windows_bundle/
     - uses: actions/upload-artifact@v4
       with:
-        name: TestApp_built_on_Windows
+        name: App_built_on_Windows
         path: tests/TestApp.app
